@@ -28,7 +28,7 @@ const Cart = () => {
           <span className="text-xl font-bold text-gray-800">My Order</span>
           <IoMdClose
             onClick={() => setActiveCart(!activeCart)}
-            className="border-2 border-gray-600 text-gray-600 font-bold  p-1 text-xl  rounded-md hover:text-red-300 hover:border-red-300 cursor-pointer"
+            className="border-2 border-gray-600 text-gray-600 font-bold  p-1 text-xl  rounded-md hover:text-red-500 hover:border-red-500 cursor-pointer"
           />
         </div>
 
@@ -59,7 +59,7 @@ const Cart = () => {
           <hr className="w-[90vw] lg:w-[18vw] my-2" />
           <button
             onClick={() => navigate("/success")}
-            className="bg-green-500 font-bold px-3 text-white py-2 rounded-lg w-[90vw] lg:w-[18vw] mb-5"
+            className="bg-orange-500 font-bold px-3 text-white py-2 rounded-lg w-[90vw] lg:w-[18vw] mb-5"
           >
             Order Now
           </button>

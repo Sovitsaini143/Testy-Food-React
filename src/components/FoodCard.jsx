@@ -29,7 +29,7 @@ const FoodCard = ({ id, name, price, desc, img, rating, handleToast }) => {
             );
             handleToast(name);
           }}
-          className="p-1 text-white bg-green-500 hover:bg-green-600 rounded-lg text-sm"
+          className="p-2 text-white bg-orange-500 hover:bg-orange-600 rounded-lg text-sm"
         >
           Add to cart
         </button>
